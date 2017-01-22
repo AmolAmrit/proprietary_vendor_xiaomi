@@ -174,14 +174,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/hydrogen/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/hydrogen/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/hydrogen/proprietary/lib64/hw/consumerir.msm8952.so:system/lib64/hw/consumerir.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/hydrogen/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
-    vendor/xiaomi/hydrogen/proprietary/lib/hw/consumerir.msm8952.so:system/lib/hw/consumerir.msm8952.so \
     vendor/xiaomi/hydrogen/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/hydrogen/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/hydrogen/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \

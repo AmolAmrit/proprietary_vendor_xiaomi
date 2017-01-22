@@ -161,11 +161,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/kenzo/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/kenzo/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/consumerir.msm8952.so:system/lib64/hw/consumerir.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/xiaomi/kenzo/proprietary/lib/hw/consumerir.msm8952.so:system/lib/hw/consumerir.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
