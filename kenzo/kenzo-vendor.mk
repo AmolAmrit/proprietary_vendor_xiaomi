@@ -858,5 +858,5 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook \
-	libts_face_beautify_hal \
-	libts_detected_face_hal
+    libts_face_beautify_hal \
+    libts_detected_face_hal
