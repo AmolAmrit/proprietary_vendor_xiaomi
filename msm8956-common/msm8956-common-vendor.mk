@@ -505,7 +505,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/xiaomi/msm8956-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libmmcamera_isp_abcc44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abcc44.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
 
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
