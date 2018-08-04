@@ -12,6 +12,6 @@
 
     <library
         name="com.qti.snapdragon.sdk.display"
-        file="/vendor/framework/com.qti.snapdragon.sdk.display.jar" />
+        file="/system/framework/com.qti.snapdragon.sdk.display.jar" />
 
 </permissions>
