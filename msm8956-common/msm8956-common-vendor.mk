@@ -581,7 +581,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so  
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/xiaomi/msm8956-common/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so  
 
 
 
@@ -608,4 +618,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyServicelibrary \
-    qcrilhook
+    qcrilhook \
+    QPerformance \
+    UxPerformance 
