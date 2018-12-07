@@ -1,4 +1,0 @@
-libadsprpc.so
-libOpenCL.so
-libqti_performance.so
-libqti-perfd-client.so
