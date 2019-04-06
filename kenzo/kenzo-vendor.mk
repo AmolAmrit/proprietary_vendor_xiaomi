@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml:system/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
+    vendor/xiaomi/kenzo/proprietary/lib/libc.so:system/lib/libc.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.gdx.so:system/lib64/hw/fingerprint.gdx.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
@@ -49,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/libc.so:system/lib64/libc.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
