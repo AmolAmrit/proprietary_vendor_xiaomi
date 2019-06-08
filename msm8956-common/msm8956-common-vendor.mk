@@ -588,6 +588,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 
+# PowerOffAlarm blobs from tissot
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/bin/power_off_alarm:system/vendor/bin/power_off_alarm \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     com.quicinc.cne.api@1.0 \
@@ -613,4 +621,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     QPerformance \
-    UxPerformance
+    UxPerformance \
+    PowerOffAlarm
